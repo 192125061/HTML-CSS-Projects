@@ -1,0 +1,45 @@
+
+.row{
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.col-25{
+    margin-right: 30px;
+}
+.col-25 input{
+    padding: 5%;
+}
+.mail input{
+    padding: 7px;
+    width: 50%;
+}
+.star{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.star-rating{
+    margin-top: 10px;
+    color: rgb(250, 176, 18);
+}
+.comment{
+    color: grey;
+}
+.second_div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+td{
+    padding: 10px;
+    text-align: center;
+
+}
+tr{
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
